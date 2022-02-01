@@ -1,0 +1,924 @@
+12:37:11.124 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 8936 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+12:37:11.134 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+12:37:12.511 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+12:37:12.527 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+12:37:12.527 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+12:37:12.542 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+12:37:12.647 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+12:37:12.647 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1380 ms
+12:37:12.763 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:37:12.763 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+12:37:12.763 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+12:37:12.779 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+12:37:12.810 [main] WARN  o.a.m.i.e.MavenSettings                            - Environment variable M2_HOME is not set
+12:37:18.905 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+12:37:18.935 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+12:37:18.945 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 8.28 seconds (JVM running for 9.143)
+12:37:27.012 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:37:27.017 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+12:37:27.017 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+12:37:35.340 [http-nio-8090-exec-2] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+12:37:36.371 [http-nio-8090-exec-2] INFO  AgentService                                       - Before Inserting object into session 2022-01-25T12:37:36.371
+12:37:36.379 [http-nio-8090-exec-2] INFO  AgentService                                       - After inserting object into session 2022-01-25T12:37:36.379
+12:37:36.379 [http-nio-8090-exec-2] INFO  AgentService                                       - Before Firing rules 2022-01-25T12:37:36.379
+12:37:36.427 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Valid Age
+12:37:36.427 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+12:37:36.427 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T12:37:36.427
+12:37:36.431 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Valid Age
+12:37:36.431 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+12:37:36.431 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T12:37:36.431
+12:37:36.432 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Valid State
+12:37:36.432 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+12:37:36.432 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T12:37:36.432
+12:37:36.432 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Valid State
+12:37:36.432 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+12:37:36.432 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T12:37:36.432
+12:37:36.432 [http-nio-8090-exec-2] INFO  AgentService                                       - After Firing rules 2022-01-25T12:37:36.432
+12:39:34.521 [http-nio-8090-exec-5] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+12:39:34.879 [http-nio-8090-exec-5] INFO  AgentService                                       - Before Inserting object into session 2022-01-25T12:39:34.879
+12:39:34.879 [http-nio-8090-exec-5] INFO  AgentService                                       - After inserting object into session 2022-01-25T12:39:34.879
+12:39:34.879 [http-nio-8090-exec-5] INFO  AgentService                                       - Before Firing rules 2022-01-25T12:39:34.879
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - Rule to be fired is : Valid Age
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - Timer Started
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - 2022-01-25T12:39:34.907
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - rule fired name is : Valid Age
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - Timer Stoped
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - 2022-01-25T12:39:34.907
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - Rule to be fired is : Invalid Country rule
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - Timer Started
+12:39:34.907 [http-nio-8090-exec-5] INFO  AgentService                                       - 2022-01-25T12:39:34.907
+12:39:34.911 [http-nio-8090-exec-5] INFO  AgentService                                       - rule fired name is : Invalid Country rule
+12:39:34.911 [http-nio-8090-exec-5] INFO  AgentService                                       - Timer Stoped
+12:39:34.911 [http-nio-8090-exec-5] INFO  AgentService                                       - 2022-01-25T12:39:34.911
+12:39:34.911 [http-nio-8090-exec-5] INFO  AgentService                                       - Rule to be fired is : Gender rule
+12:39:34.911 [http-nio-8090-exec-5] INFO  AgentService                                       - Timer Started
+12:39:34.911 [http-nio-8090-exec-5] INFO  AgentService                                       - 2022-01-25T12:39:34.911
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - rule fired name is : Gender rule
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - Timer Stoped
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - 2022-01-25T12:39:34.912
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - Rule to be fired is : Valid Agent
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - Timer Started
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - 2022-01-25T12:39:34.912
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - rule fired name is : Valid Agent
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - Timer Stoped
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - 2022-01-25T12:39:34.912
+12:39:34.912 [http-nio-8090-exec-5] INFO  AgentService                                       - After Firing rules 2022-01-25T12:39:34.912
+12:39:42.244 [http-nio-8090-exec-6] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+12:39:42.554 [http-nio-8090-exec-6] INFO  AgentService                                       - Before Inserting object into session 2022-01-25T12:39:42.554
+12:39:42.554 [http-nio-8090-exec-6] INFO  AgentService                                       - After inserting object into session 2022-01-25T12:39:42.554
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - Before Firing rules 2022-01-25T12:39:42.558
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - Rule to be fired is : Valid Age
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - Timer Started
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - 2022-01-25T12:39:42.558
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - rule fired name is : Valid Age
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - Timer Stoped
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - 2022-01-25T12:39:42.558
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - Rule to be fired is : Invalid Country rule
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - Timer Started
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - 2022-01-25T12:39:42.558
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - rule fired name is : Invalid Country rule
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - Timer Stoped
+12:39:42.558 [http-nio-8090-exec-6] INFO  AgentService                                       - 2022-01-25T12:39:42.558
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - Rule to be fired is : Gender rule
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - Timer Started
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - 2022-01-25T12:39:42.562
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - rule fired name is : Gender rule
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - Timer Stoped
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - 2022-01-25T12:39:42.562
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - Rule to be fired is : Valid Agent
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - Timer Started
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - 2022-01-25T12:39:42.562
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - rule fired name is : Valid Agent
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - Timer Stoped
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - 2022-01-25T12:39:42.562
+12:39:42.562 [http-nio-8090-exec-6] INFO  AgentService                                       - After Firing rules 2022-01-25T12:39:42.562
+13:00:29.952 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 27384 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+13:00:29.969 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+13:00:31.890 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+13:00:31.912 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+13:00:31.912 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+13:00:31.912 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+13:00:32.029 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+13:00:32.029 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1887 ms
+13:00:32.130 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+13:00:32.130 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+13:00:32.138 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+13:00:32.138 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+13:00:32.140 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+13:00:32.140 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+13:00:32.140 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+13:00:32.140 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+13:00:32.140 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+13:00:32.140 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+13:00:32.140 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+13:00:32.140 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+13:00:32.147 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+13:00:32.149 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+13:00:32.149 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+13:00:32.151 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+13:00:32.151 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+13:00:32.181 [main] WARN  o.a.m.i.e.MavenSettings                            - Environment variable M2_HOME is not set
+13:00:38.075 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+13:00:38.411 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+13:00:38.420 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 9.089 seconds (JVM running for 10.168)
+15:45:38.413 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:45:38.415 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+15:45:38.425 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 10 ms
+15:45:53.023 [http-nio-8090-exec-2] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+15:45:54.100 [http-nio-8090-exec-2] INFO  AgentService                                       - Before Inserting object into session 2022-01-25T15:45:54.099
+15:45:54.106 [http-nio-8090-exec-2] INFO  AgentService                                       - After inserting object into session 2022-01-25T15:45:54.106
+15:45:54.106 [http-nio-8090-exec-2] INFO  AgentService                                       - Before Firing rules 2022-01-25T15:45:54.106
+15:45:54.171 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Valid Age
+15:45:54.171 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+15:45:54.171 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T15:45:54.171
+15:45:54.175 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Valid Age
+15:45:54.175 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+15:45:54.175 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T15:45:54.175
+15:45:54.175 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Invalid Country rule
+15:45:54.175 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+15:45:54.175 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T15:45:54.175
+15:45:54.176 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Invalid Country rule
+15:45:54.177 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+15:45:54.177 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T15:45:54.177
+15:45:54.177 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Gender rule
+15:45:54.177 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+15:45:54.177 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T15:45:54.177
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Gender rule
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T15:45:54.178
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Valid Agent
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T15:45:54.178
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Valid Agent
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+15:45:54.178 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T15:45:54.178
+15:45:54.179 [http-nio-8090-exec-2] INFO  AgentService                                       - After Firing rules 2022-01-25T15:45:54.179
+15:48:15.481 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 4284 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+15:48:15.495 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+15:48:17.331 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+15:48:17.351 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+15:48:17.351 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+15:48:17.352 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+15:48:17.466 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+15:48:17.466 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1825 ms
+15:48:17.564 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:48:17.567 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+15:48:17.567 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:48:17.569 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+15:48:17.570 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+15:48:17.571 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+15:48:17.572 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+15:48:17.572 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:48:17.574 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+15:48:17.575 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+15:48:17.575 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:48:17.577 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+15:48:17.578 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+15:48:17.579 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+15:48:17.579 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:48:17.583 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+15:48:17.585 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+15:48:17.608 [main] WARN  o.a.m.i.e.MavenSettings                            - Environment variable M2_HOME is not set
+15:48:23.071 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+15:48:23.087 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+15:48:23.103 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 8.205 seconds (JVM running for 9.171)
+15:48:24.255 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:48:24.255 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+15:48:24.256 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 1 ms
+15:48:30.627 [http-nio-8090-exec-1] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+15:48:31.551 [http-nio-8090-exec-1] INFO  AgentService                                       - Before Inserting object into session 2022-01-25T15:48:31.551
+15:48:31.558 [http-nio-8090-exec-1] INFO  AgentService                                       - After inserting object into session 2022-01-25T15:48:31.558
+15:48:31.559 [http-nio-8090-exec-1] INFO  AgentService                                       - Before Firing rules 2022-01-25T15:48:31.559
+15:48:31.626 [http-nio-8090-exec-1] INFO  AgentService                                       - Rule to be fired is : Valid Age
+15:48:31.626 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Started
+15:48:31.626 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-25T15:48:31.626
+15:48:31.631 [http-nio-8090-exec-1] INFO  AgentService                                       - rule fired name is : Valid Age
+15:48:31.631 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Stoped
+15:48:31.631 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-25T15:48:31.631
+15:48:31.632 [http-nio-8090-exec-1] INFO  AgentService                                       - Rule to be fired is : Invalid Country rule
+15:48:31.632 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Started
+15:48:31.632 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-25T15:48:31.632
+15:48:31.633 [http-nio-8090-exec-1] INFO  AgentService                                       - rule fired name is : Invalid Country rule
+15:48:31.633 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Stoped
+15:48:31.633 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-25T15:48:31.633
+15:48:31.633 [http-nio-8090-exec-1] INFO  AgentService                                       - Rule to be fired is : Gender rule
+15:48:31.633 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Started
+15:48:31.633 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-25T15:48:31.633
+15:48:31.634 [http-nio-8090-exec-1] INFO  AgentService                                       - rule fired name is : Gender rule
+15:48:31.634 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Stoped
+15:48:31.634 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-25T15:48:31.634
+15:48:31.634 [http-nio-8090-exec-1] INFO  AgentService                                       - Rule to be fired is : Valid Agent
+15:48:31.634 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Started
+15:48:31.635 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-25T15:48:31.635
+15:48:31.635 [http-nio-8090-exec-1] INFO  AgentService                                       - rule fired name is : Valid Agent
+15:48:31.635 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Stoped
+15:48:31.635 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-25T15:48:31.635
+15:48:31.636 [http-nio-8090-exec-1] INFO  AgentService                                       - Total Rules Fired - 4
+15:48:31.636 [http-nio-8090-exec-1] INFO  AgentService                                       - After Firing rules 2022-01-25T15:48:31.636
+17:26:48.127 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 15532 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:26:48.143 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:26:49.432 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:26:49.448 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:26:49.448 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:26:49.448 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:26:49.546 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:26:49.546 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1284 ms
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+17:26:49.629 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:26:49.645 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+17:26:49.646 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+17:26:49.646 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+17:26:49.646 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:26:49.646 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+17:26:49.646 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+17:26:49.662 [main] WARN  o.a.m.i.e.MavenSettings                            - Environment variable M2_HOME is not set
+17:26:54.509 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:26:54.669 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:26:54.685 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 7.013 seconds (JVM running for 7.921)
+17:33:38.656 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 9696 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:33:38.672 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:33:39.226 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+17:33:39.409 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:33:39.440 [main] ERROR o.s.b.SpringApplication                            - Application run failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:217) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:216) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:332) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.Drools.AgentApplicationKt.main(AgentApplication.kt:11) [classes/:?]
+17:33:45.233 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 18428 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:33:45.248 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:33:46.525 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:33:46.541 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:33:46.541 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:33:46.541 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:33:46.641 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:33:46.641 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1282 ms
+17:33:47.004 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:33:47.020 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:33:47.036 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.323 seconds (JVM running for 3.194)
+17:33:54.751 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:33:54.751 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:33:54.751 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+17:34:05.226 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 4032 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:34:05.247 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:34:06.498 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:34:06.514 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:34:06.514 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:34:06.514 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:34:06.629 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:34:06.629 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1252 ms
+17:34:06.983 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:34:06.999 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:34:07.015 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.249 seconds (JVM running for 3.119)
+17:34:20.131 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:34:20.131 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:34:20.131 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+17:35:15.198 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 10572 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:35:15.206 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:35:15.725 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+17:35:15.872 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:35:15.904 [main] ERROR o.s.b.SpringApplication                            - Application run failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:217) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:216) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:332) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.Drools.AgentApplicationKt.main(AgentApplication.kt:11) [classes/:?]
+17:35:21.956 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 20856 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:35:21.966 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:35:23.270 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:35:23.286 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:35:23.286 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:35:23.286 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:35:23.382 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:35:23.382 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1264 ms
+17:35:23.715 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:35:23.730 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:35:23.730 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.283 seconds (JVM running for 3.129)
+17:35:31.855 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:35:31.859 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:35:31.859 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+17:35:56.124 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 23280 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:35:56.151 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:35:57.482 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:35:57.498 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:35:57.498 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:35:57.498 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:35:57.606 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:35:57.606 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1327 ms
+17:35:57.936 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:35:57.951 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:35:57.951 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.349 seconds (JVM running for 3.228)
+17:36:08.460 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 25268 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:36:08.475 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:36:09.778 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:36:09.794 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:36:09.794 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:36:09.794 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:36:09.897 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:36:09.897 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1282 ms
+17:36:10.216 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:36:10.232 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:36:10.248 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.232 seconds (JVM running for 3.111)
+17:36:21.519 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:36:21.519 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:36:21.523 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+17:39:05.205 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 17188 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:39:05.205 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:39:06.447 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:39:06.463 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:39:06.463 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:39:06.463 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:39:06.569 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:39:06.569 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1245 ms
+17:39:06.901 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:39:06.917 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:39:06.917 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.306 seconds (JVM running for 3.243)
+17:39:16.102 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:39:16.102 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:39:16.103 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 1 ms
+17:40:15.722 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 4380 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:40:15.769 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:40:16.376 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+17:40:16.580 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:40:16.627 [main] ERROR o.s.b.SpringApplication                            - Application run failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:217) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:216) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:332) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.Drools.AgentApplicationKt.main(AgentApplication.kt:11) [classes/:?]
+17:40:24.356 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 27316 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:40:24.356 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:40:25.888 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:40:25.919 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:40:25.919 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:40:25.919 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:40:26.010 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:40:26.010 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1487 ms
+17:40:26.360 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:40:26.376 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:40:26.376 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.501 seconds (JVM running for 3.368)
+17:40:37.443 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:40:37.443 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:40:37.443 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+17:42:02.121 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 15240 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:42:02.137 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:42:03.355 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:42:03.371 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:42:03.371 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:42:03.371 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:42:03.466 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:42:03.466 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1199 ms
+17:42:03.824 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:42:03.840 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:42:03.840 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.189 seconds (JVM running for 3.012)
+17:43:36.439 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 16944 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:43:36.455 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:43:37.017 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+17:43:37.227 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:43:37.259 [main] ERROR o.s.b.SpringApplication                            - Application run failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:217) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:216) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:332) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.Drools.AgentApplicationKt.main(AgentApplication.kt:11) [classes/:?]
+17:43:45.921 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 25724 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:43:45.940 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:43:47.228 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:43:47.244 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:43:47.244 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:43:47.244 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:43:47.334 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:43:47.334 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1261 ms
+17:43:47.617 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:43:47.633 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:43:47.633 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.22 seconds (JVM running for 3.106)
+17:45:39.860 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 7252 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:45:39.885 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:45:42.265 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:45:42.296 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:45:42.296 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:45:42.296 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:45:42.416 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:45:42.416 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2348 ms
+17:45:42.888 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:45:42.917 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:45:42.932 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 3.855 seconds (JVM running for 5.221)
+17:45:47.056 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:45:47.057 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:45:47.057 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+17:45:56.579 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 29496 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:45:56.598 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:45:58.085 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:45:58.101 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:45:58.101 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:45:58.101 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:45:58.176 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:45:58.176 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1402 ms
+17:45:58.492 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:45:58.508 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:45:58.508 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 2.728 seconds (JVM running for 3.868)
+17:46:46.440 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 20216 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:46:46.463 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:46:47.064 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+17:46:47.247 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:46:47.273 [main] ERROR o.s.b.SpringApplication                            - Application run failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AgentApplication' may not be final. Remove the final modifier to continue.
+Offending resource: com.Drools.AgentApplication
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72) ~[spring-beans-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:217) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:216) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:332) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.14.jar:5.3.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.Drools.AgentApplicationKt.main(AgentApplication.kt:11) [classes/:?]
+17:46:52.524 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 7408 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:46:52.541 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:46:53.798 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:46:53.814 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:46:53.814 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:46:53.814 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:46:53.901 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:46:53.901 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1260 ms
+17:46:53.997 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+17:46:54.012 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:46:54.028 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+17:46:54.028 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+17:46:54.044 [main] WARN  o.a.m.i.e.MavenSettings                            - Environment variable M2_HOME is not set
+17:46:58.027 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:46:58.043 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:46:58.059 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 6.047 seconds (JVM running for 6.959)
+17:47:04.441 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:47:04.441 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:47:04.442 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 1 ms
+17:47:24.822 [http-nio-8090-exec-2] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+17:47:26.309 [http-nio-8090-exec-2] INFO  AgentService                                       - Before Inserting object into session 2022-01-25T17:47:26.309
+17:47:26.321 [http-nio-8090-exec-2] INFO  AgentService                                       - After inserting object into session 2022-01-25T17:47:26.321
+17:47:26.321 [http-nio-8090-exec-2] INFO  AgentService                                       - Before Firing rules 2022-01-25T17:47:26.321
+17:47:26.395 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Valid Age
+17:47:26.395 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+17:47:26.396 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T17:47:26.395
+17:47:26.404 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Valid Age
+17:47:26.405 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+17:47:26.405 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T17:47:26.405
+17:47:26.406 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Valid State
+17:47:26.406 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+17:47:26.406 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T17:47:26.406
+17:47:26.407 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Valid State
+17:47:26.407 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+17:47:26.407 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-01-25T17:47:26.407
+17:47:26.408 [http-nio-8090-exec-2] INFO  AgentService                                       - Total Rules Fired - 2
+17:47:26.408 [http-nio-8090-exec-2] INFO  AgentService                                       - After Firing rules 2022-01-25T17:47:26.408
+17:32:26.167 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 20444 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+17:32:26.178 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+17:32:27.390 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+17:32:27.407 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+17:32:27.407 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+17:32:27.408 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:32:27.504 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+17:32:27.505 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1199 ms
+17:32:27.591 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:32:27.595 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+17:32:27.595 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:32:27.597 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+17:32:27.597 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+17:32:27.598 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+17:32:27.599 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+17:32:27.599 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:32:27.600 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+17:32:27.600 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+17:32:27.601 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:32:27.602 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+17:32:27.603 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+17:32:27.604 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+17:32:27.604 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+17:32:27.609 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+17:32:27.611 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+17:32:27.633 [main] WARN  o.a.m.i.e.MavenSettings                            - Environment variable M2_HOME is not set
+17:32:38.723 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+17:32:38.891 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+17:32:38.898 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 13.212 seconds (JVM running for 14.074)
+17:32:43.605 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:32:43.606 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+17:32:43.606 [http-nio-8090-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+17:33:01.363 [http-nio-8090-exec-1] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+17:33:02.736 [http-nio-8090-exec-1] INFO  AgentService                                       - Before Inserting object into session 2022-01-27T17:33:02.736
+17:33:02.743 [http-nio-8090-exec-1] INFO  AgentService                                       - After inserting object into session 2022-01-27T17:33:02.743
+17:33:02.743 [http-nio-8090-exec-1] INFO  AgentService                                       - Before Firing rules 2022-01-27T17:33:02.743
+17:33:02.816 [http-nio-8090-exec-1] INFO  AgentService                                       - Rule to be fired is : Valid Age
+17:33:02.816 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Started
+17:33:02.816 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-27T17:33:02.816
+17:33:02.821 [http-nio-8090-exec-1] INFO  AgentService                                       - rule fired name is : Valid Age
+17:33:02.821 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Stoped
+17:33:02.821 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-27T17:33:02.821
+17:33:02.821 [http-nio-8090-exec-1] INFO  AgentService                                       - Rule to be fired is : Invalid Country rule
+17:33:02.821 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Started
+17:33:02.821 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-27T17:33:02.821
+17:33:02.822 [http-nio-8090-exec-1] INFO  AgentService                                       - rule fired name is : Invalid Country rule
+17:33:02.822 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Stoped
+17:33:02.822 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-27T17:33:02.822
+17:33:02.822 [http-nio-8090-exec-1] INFO  AgentService                                       - Rule to be fired is : Gender rule
+17:33:02.822 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Started
+17:33:02.822 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-27T17:33:02.822
+17:33:02.823 [http-nio-8090-exec-1] INFO  AgentService                                       - rule fired name is : Gender rule
+17:33:02.823 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Stoped
+17:33:02.823 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-27T17:33:02.823
+17:33:02.823 [http-nio-8090-exec-1] INFO  AgentService                                       - Rule to be fired is : Valid Agent
+17:33:02.823 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Started
+17:33:02.823 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-27T17:33:02.823
+17:33:02.824 [http-nio-8090-exec-1] INFO  AgentService                                       - rule fired name is : Valid Agent
+17:33:02.824 [http-nio-8090-exec-1] INFO  AgentService                                       - Timer Stoped
+17:33:02.824 [http-nio-8090-exec-1] INFO  AgentService                                       - 2022-01-27T17:33:02.824
+17:33:02.824 [http-nio-8090-exec-1] INFO  AgentService                                       - Total Rules Fired - 4
+17:33:02.824 [http-nio-8090-exec-1] INFO  AgentService                                       - After Firing rules 2022-01-27T17:33:02.824
+17:34:09.664 [http-nio-8090-exec-3] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+17:34:09.847 [http-nio-8090-exec-3] INFO  AgentService                                       - Before Inserting object into session 2022-01-27T17:34:09.846
+17:34:09.847 [http-nio-8090-exec-3] INFO  AgentService                                       - After inserting object into session 2022-01-27T17:34:09.847
+17:34:09.848 [http-nio-8090-exec-3] INFO  AgentService                                       - Before Firing rules 2022-01-27T17:34:09.848
+17:34:09.849 [http-nio-8090-exec-3] INFO  AgentService                                       - Rule to be fired is : Valid Age
+17:34:09.849 [http-nio-8090-exec-3] INFO  AgentService                                       - Timer Started
+17:34:09.849 [http-nio-8090-exec-3] INFO  AgentService                                       - 2022-01-27T17:34:09.849
+17:34:09.849 [http-nio-8090-exec-3] INFO  AgentService                                       - rule fired name is : Valid Age
+17:34:09.849 [http-nio-8090-exec-3] INFO  AgentService                                       - Timer Stoped
+17:34:09.850 [http-nio-8090-exec-3] INFO  AgentService                                       - 2022-01-27T17:34:09.850
+17:34:09.850 [http-nio-8090-exec-3] INFO  AgentService                                       - Rule to be fired is : Invalid Country rule
+17:34:09.850 [http-nio-8090-exec-3] INFO  AgentService                                       - Timer Started
+17:34:09.850 [http-nio-8090-exec-3] INFO  AgentService                                       - 2022-01-27T17:34:09.850
+17:34:09.850 [http-nio-8090-exec-3] INFO  AgentService                                       - rule fired name is : Invalid Country rule
+17:34:09.850 [http-nio-8090-exec-3] INFO  AgentService                                       - Timer Stoped
+17:34:09.850 [http-nio-8090-exec-3] INFO  AgentService                                       - 2022-01-27T17:34:09.850
+17:34:09.851 [http-nio-8090-exec-3] INFO  AgentService                                       - Rule to be fired is : Gender rule
+17:34:09.851 [http-nio-8090-exec-3] INFO  AgentService                                       - Timer Started
+17:34:09.851 [http-nio-8090-exec-3] INFO  AgentService                                       - 2022-01-27T17:34:09.851
+17:34:09.851 [http-nio-8090-exec-3] INFO  AgentService                                       - rule fired name is : Gender rule
+17:34:09.851 [http-nio-8090-exec-3] INFO  AgentService                                       - Timer Stoped
+17:34:09.851 [http-nio-8090-exec-3] INFO  AgentService                                       - 2022-01-27T17:34:09.851
+17:34:09.851 [http-nio-8090-exec-3] INFO  AgentService                                       - Rule to be fired is : Valid Agent
+17:34:09.852 [http-nio-8090-exec-3] INFO  AgentService                                       - Timer Started
+17:34:09.852 [http-nio-8090-exec-3] INFO  AgentService                                       - 2022-01-27T17:34:09.852
+17:34:09.852 [http-nio-8090-exec-3] INFO  AgentService                                       - rule fired name is : Valid Agent
+17:34:09.852 [http-nio-8090-exec-3] INFO  AgentService                                       - Timer Stoped
+17:34:09.852 [http-nio-8090-exec-3] INFO  AgentService                                       - 2022-01-27T17:34:09.852
+17:34:09.852 [http-nio-8090-exec-3] INFO  AgentService                                       - Total Rules Fired - 4
+17:34:09.852 [http-nio-8090-exec-3] INFO  AgentService                                       - After Firing rules 2022-01-27T17:34:09.852
+17:34:24.421 [http-nio-8090-exec-4] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+17:34:24.604 [http-nio-8090-exec-4] INFO  AgentService                                       - Before Inserting object into session 2022-01-27T17:34:24.604
+17:34:24.604 [http-nio-8090-exec-4] INFO  AgentService                                       - After inserting object into session 2022-01-27T17:34:24.604
+17:34:24.604 [http-nio-8090-exec-4] INFO  AgentService                                       - Before Firing rules 2022-01-27T17:34:24.604
+17:34:24.611 [http-nio-8090-exec-4] INFO  AgentService                                       - Rule to be fired is : Valid Age
+17:34:24.611 [http-nio-8090-exec-4] INFO  AgentService                                       - Timer Started
+17:34:24.611 [http-nio-8090-exec-4] INFO  AgentService                                       - 2022-01-27T17:34:24.611
+17:34:24.612 [http-nio-8090-exec-4] INFO  AgentService                                       - rule fired name is : Valid Age
+17:34:24.612 [http-nio-8090-exec-4] INFO  AgentService                                       - Timer Stoped
+17:34:24.612 [http-nio-8090-exec-4] INFO  AgentService                                       - 2022-01-27T17:34:24.612
+17:34:24.613 [http-nio-8090-exec-4] INFO  AgentService                                       - Rule to be fired is : Valid State
+17:34:24.613 [http-nio-8090-exec-4] INFO  AgentService                                       - Timer Started
+17:34:24.613 [http-nio-8090-exec-4] INFO  AgentService                                       - 2022-01-27T17:34:24.613
+17:34:24.613 [http-nio-8090-exec-4] INFO  AgentService                                       - rule fired name is : Valid State
+17:34:24.613 [http-nio-8090-exec-4] INFO  AgentService                                       - Timer Stoped
+17:34:24.613 [http-nio-8090-exec-4] INFO  AgentService                                       - 2022-01-27T17:34:24.613
+17:34:24.614 [http-nio-8090-exec-4] INFO  AgentService                                       - Total Rules Fired - 2
+17:34:24.614 [http-nio-8090-exec-4] INFO  AgentService                                       - After Firing rules 2022-01-27T17:34:24.614
+15:44:55.213 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 11536 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+15:44:55.229 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+15:44:56.462 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+15:44:56.477 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+15:44:56.477 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+15:44:56.477 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+15:44:56.553 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+15:44:56.553 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1212 ms
+15:44:56.633 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:44:56.633 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+15:44:56.648 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+15:45:07.372 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+15:45:07.530 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+15:45:07.548 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 12.802 seconds (JVM running for 13.688)
+11:59:57.481 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 26780 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+11:59:57.493 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+11:59:58.750 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+11:59:58.765 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+11:59:58.766 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+11:59:58.766 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+11:59:58.857 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+11:59:58.858 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1235 ms
+11:59:58.937 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+11:59:58.940 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+11:59:58.941 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+11:59:58.942 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+11:59:58.942 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+11:59:58.943 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+11:59:58.943 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+11:59:58.944 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+11:59:58.945 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+11:59:58.946 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+11:59:58.946 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+11:59:58.947 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+11:59:58.949 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+11:59:58.949 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+11:59:58.950 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+11:59:58.953 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+11:59:58.955 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+12:00:09.610 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+12:00:09.616 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+12:00:09.619 [main] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8090"]
+12:00:09.619 [main] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat]
+12:00:09.623 [main] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8090"]
+12:00:09.624 [main] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8090"]
+12:00:09.632 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:00:09.653 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+12:00:55.946 [main] INFO  c.D.AgentApplicationKt                             - Starting AgentApplicationKt using Java 1.8.0_202 on Mayank-INT039 with PID 19328 (C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools\target\classes started by Mayank_Singh in C:\Users\Mayank_Singh\Downloads\demo (1)\DynamicDrools)
+12:00:55.959 [main] INFO  c.D.AgentApplicationKt                             - No active profile set, falling back to default profiles: default
+12:00:57.156 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8090 (http)
+12:00:57.171 [main] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8090"]
+12:00:57.172 [main] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+12:00:57.172 [main] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.56]
+12:00:57.262 [main] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+12:00:57.262 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1186 ms
+12:00:57.347 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-decisiontables/7.15.0.Final/drools-decisiontables-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:00:57.349 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+12:00:57.350 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-internal/7.15.0.Final/kie-internal-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:00:57.351 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieAssemblersImpl
+
+12:00:57.351 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieRuntimesImpl
+
+12:00:57.352 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieWeaversImpl
+
+12:00:57.353 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.internal.services.KieBeliefsImpl
+
+12:00:57.353 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/kie/kie-ci/7.15.0.Final/kie-ci-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:00:57.354 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+12:00:57.355 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+12:00:57.355 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-core/7.15.0.Final/drools-core-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:00:57.356 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+12:00:57.358 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+12:00:57.359 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+12:00:57.359 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Loading kie.conf from  jar:file:/C:/Users/Mayank_Singh/.m2/repository/org/drools/drools-compiler/7.15.0.Final/drools-compiler-7.15.0.Final.jar!/META-INF/kie.conf in classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+12:00:57.362 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+12:00:57.365 [main] INFO  o.k.a.i.u.ServiceDiscoveryImpl                     - Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+12:01:04.989 [main] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8090"]
+12:01:05.158 [main] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8090 (http) with context path ''
+12:01:05.166 [main] INFO  c.D.AgentApplicationKt                             - Started AgentApplicationKt in 9.692 seconds (JVM running for 10.568)
+12:01:13.397 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:01:13.397 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+12:01:13.399 [http-nio-8090-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 2 ms
+12:01:28.227 [http-nio-8090-exec-2] WARN  o.a.m.i.MavenRepository                            - Unable to resolve artifact: xerces:xercesImpl:2.12.0.SP02
+12:01:29.480 [http-nio-8090-exec-2] INFO  AgentService                                       - Before Inserting object into session 2022-02-01T12:01:29.480
+12:01:29.491 [http-nio-8090-exec-2] INFO  AgentService                                       - After inserting object into session 2022-02-01T12:01:29.491
+12:01:29.491 [http-nio-8090-exec-2] INFO  AgentService                                       - Before Firing rules 2022-02-01T12:01:29.491
+12:01:29.549 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Valid Age
+12:01:29.549 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+12:01:29.550 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-02-01T12:01:29.550
+12:01:29.556 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Valid Age
+12:01:29.556 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+12:01:29.557 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-02-01T12:01:29.557
+12:01:29.557 [http-nio-8090-exec-2] INFO  AgentService                                       - Rule to be fired is : Valid State
+12:01:29.557 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Started
+12:01:29.557 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-02-01T12:01:29.557
+12:01:29.558 [http-nio-8090-exec-2] INFO  AgentService                                       - rule fired name is : Valid State
+12:01:29.558 [http-nio-8090-exec-2] INFO  AgentService                                       - Timer Stoped
+12:01:29.558 [http-nio-8090-exec-2] INFO  AgentService                                       - 2022-02-01T12:01:29.558
+12:01:29.559 [http-nio-8090-exec-2] INFO  AgentService                                       - Total Rules Fired - 2
+12:01:29.559 [http-nio-8090-exec-2] INFO  AgentService                                       - After Firing rules 2022-02-01T12:01:29.559

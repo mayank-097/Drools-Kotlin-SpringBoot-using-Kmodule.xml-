@@ -1,0 +1,25 @@
+package Rules;
+
+import com.Drools.Entity.Agent;
+
+dialect "mvel";
+
+rule "Valid State"
+salience 1
+when
+agent:Agent(agentState.equalsIgnoreCase("Uttar Pradesh"))
+then
+System.out.println("Agent's state UTTAR PRADESH is a valid state");
+agent.setAgentMessage("Agent's state UTTAR PRADESH is a valid state");
+agent.setAgentType("Agent is a valid Agent");
+end;
+
+rule "Invalid State"
+salience 2
+when
+agent:Agent(agentState.equalsIgnoreCase("Bihar"))
+then
+System.out.println("Agent's state BIHAR is an InValid state");
+agent.setAgentMessage("Agent's state BIHAR is a InValid state");
+agent.setAgentType("Agent is a InValid Agent");
+end;

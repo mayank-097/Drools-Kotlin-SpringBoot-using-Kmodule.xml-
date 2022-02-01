@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <kbase name="kbase1" packages="Rules.Basic , Rules.Age ">
+
+        <ksession name="ksession-rule"/>
+
+    </kbase>
+    <kbase name="state" packages="Rules.State , Rules.Age">
+        <ksession name="ksession1"/>
+    </kbase>
+    <kbase name="age" packages="Rules.Age">
+        <ksession name="ksession2"/>
+    </kbase>
+
+</kmodule>
+        <!--  packeges = "Rules.AgentRules" to add particular rule files from the rule files-->

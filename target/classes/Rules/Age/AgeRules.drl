@@ -1,0 +1,25 @@
+package Rules;
+
+import com.Drools.Entity.Agent;
+
+dialect "mvel";
+
+rule "InValid Age"
+salience 10
+when
+agent:Agent(agentAge<18)
+then
+System.out.println("Agent is not Valid (UnderAge)");
+agent.setAgentMessage("Agent is not Valid (UnderAge)");
+agent.setAgentType("InValid");
+end;
+
+rule "Valid Age"
+salience 9
+when
+agent:Agent(agentAge>=18)
+then
+System.out.println("Agent is a Valid Agent");
+agent.setAgentMessage("Agent is a Valid Agent");
+agent.setAgentType("Valid");
+end;

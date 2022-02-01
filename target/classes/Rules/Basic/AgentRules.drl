@@ -1,0 +1,58 @@
+package Rules;
+
+import com.Drools.Entity.Agent;
+
+dialect "mvel";
+
+rule "Valid Agent"
+salience 1
+when
+agent:Agent(agentStatus.equalsIgnoreCase("Active"))
+then
+System.out.println("Agent is a Valid Agent");
+agent.setAgentMessage("Agent is a Valid Agent");
+agent.setAgentType("Valid");
+end;
+
+rule "Invalid Agent"
+salience 2
+when
+agent:Agent(agentStatus.equalsIgnoreCase("InActive"))
+then
+System.out.println("Agent is not a Valid Agent");
+agent.setAgentMessage("Agent is not a Valid Agent");
+agent.setAgentType("InValid");
+end;
+
+rule "Gender rule"
+salience 3
+when
+agent:Agent(agentGender.equalsIgnoreCase("Male"))
+then
+System.out.println("Agent is a Male Agent");
+agent.setAgentMessage("Agent is a Male Valid Agent");
+agent.setAgentType("Valid");
+end;
+
+rule "Country rule"
+salience 4
+when
+agent:Agent(agentCountry.equalsIgnoreCase("India"))
+then
+System.out.println("Agent's Country is India");
+agent.setAgentMessage("Agent's Country is India");
+agent.setAgentType("Valid");
+end;
+
+rule "Invalid Country rule"
+salience 5
+when
+agent:Agent(agentCountry.equalsIgnoreCase("China"))
+then
+System.out.println("Agent's Country is Invalid(China)");
+agent.setAgentMessage("Agent's Country is Invalid(China)");
+agent.setAgentType("InValid");
+end;
+
+
+
